@@ -1,3 +1,7 @@
+// Si un numero es multiplo de 3 mostrar 'Fizz'
+// Si un numero es multiplo de 2 mostrar 'Buzz'
+// Si un numero es multiplo de 3 y 5 mostrar 'Fizz Buzz'
+
 const fizzBuzz = (n) => {
   if (n % 15 === 0) {
     return "Fizz Buzz";
